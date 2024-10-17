@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.appWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  border: 1px solid grey;
+  height: 70px;
+}
+.mainWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 32px;
+  width: 100%;
+  gap: 16px;
+}
+.listWrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btns {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 1px;
+}
+.doneBtn {
+  border: 1px solid green;
+  color: green;
+}
+.doneBtn:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.deleteBtn {
+  border: 1px solid red;
+  color: red;
+}
+.deleteBtn:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.footerWrapper {
+  border: 1px solid grey;
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  padding: 16px 0;
+}
+/* form style properties*/
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 10px;
+}
+.select {
+  padding: 4px;
+  border-radius: 5px;
+}
+.inputData {
+  padding: 3px;
+  width: 30%;
+  outline: none;
+}
+.addBtn {
+  padding: 5px;
+  border: 1px solid green;
+  color: green;
+}
+.addBtn:hover {
+  background-color: green;
+  color: white;
+}
+.soppingDone {
+    color: green;
+}
